@@ -1,8 +1,6 @@
-print(1+3)
+def add(a,b,c,d,e):
+    f=a+b+c+d+e
+    return f
 
-def print_hello_world(a):
-
-    print("hello world")
-
-
-print_hello_world("bsadfsdfasdfasdf")
+g=add(1,2,3,4,5)
+print(g)
