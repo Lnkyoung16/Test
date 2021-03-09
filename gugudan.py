@@ -11,3 +11,19 @@ def gugudan(var1):
 
 
 gugudan(9)
+
+
+# stationary = ["pencil", "eraser", "pen", "ruler", "compass"]
+#
+# print(stationary)
+#
+# for s in stationary:
+#     if s == "eraser" or s == "pen":
+#         print(s)
+#
+# # print("--")
+# #
+# # print(stationary[1])
+
+
+
