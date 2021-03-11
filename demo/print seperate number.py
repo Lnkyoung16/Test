@@ -1,15 +1,17 @@
-from divide import divide
+def check_cipher(X):
+    result = []
+    if X < 10000 and X >= 1000:
+        cipher = [1000, 100, 10, 1]
+        temp = 0
+        for c in cipher:
+            temp = X / c
+            temp = int(temp)
+            result.append(temp)
+            X = X - (temp * c)
+    else:
+        print("done")
+    for r in range(0,len(result)):
+        print(result[r])
+    return result
 
-
-def psepnum(x):
-def psepnum(x):
-    B = 2
-    A = 0
-    while B > 1:
-        A = A + 1
-        B = divide(x, A)
-        C = round(B)
-        print(C)
-
-
-psepnum(147)
+check_cipher(2523)
